@@ -109,7 +109,7 @@ def send_python_email(subject, from_email, to_email, data_tables, attachments_li
 #     ('Yesterday Summary:', df1,None),
 #     ('Yesterday Summary2:', df1.head(10),None),
 #     ('Month Top:', df2.head(10),None )
-]
+# ]
 # attachments = [df, df.head(), df2] #can be empty if not will be in form of csvs
 # attachment_name = ['final_file', 'yesterday_raw', 'MTD_raw']
 # send_python_email(subject, from_email, to_email, data_tables, attachments,attachment_name)
